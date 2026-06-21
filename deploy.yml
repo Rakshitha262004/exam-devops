@@ -1,5 +1,5 @@
--hosts:web
- task:
- - name: Display message
-   debug :
-   msg: "application running successfully"
+- hosts: web
+  tasks:
+    - name: Display message
+      debug :
+        msg: "application running successfully"
