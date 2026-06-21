@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'echo Building Maven Project'
-                bat 'mvn clean package'
+                
             }
         }
 
