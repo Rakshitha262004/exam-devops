@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'echo Building Maven Project'
-                bat 'mvnd clean package'
+                bat '"C:\Program Files\Java\maven-mvnd-1.0.5-windows-amd64\maven-mvnd-1.0.5-windows-amd64\bin\mvnd.cmd" clean package'
             }
         }
 
